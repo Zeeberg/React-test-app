@@ -8,7 +8,7 @@ const App = () => {
   return (
     <>
       <Global />
-      <BrowserRouter>
+      <BrowserRouter basename="/React-test-app">
         <div>
           <Switch>
             <Route path={"/operators"} exact>

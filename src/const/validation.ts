@@ -2,7 +2,6 @@ import * as Yup from 'yup'
 
 
 const validateSum = (value = "0") => {
-  console.log(value);
   if (
     parseInt(value.replace(/\D+/g, "")) > 1000 ||
     parseInt(value.replace(/\D+/g, "")) < 1 ||
